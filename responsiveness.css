@@ -1,0 +1,105 @@
+@media screen and (max-width: 1200px){
+    form label{
+        font-size: 1.4em;
+    }
+    form input,select,textarea{
+        font-size: 1.4em;
+        width: 75%;
+    }
+    form button{
+        padding: 10px 15px;
+        font-size: 1.3em;
+        font-weight: lighter;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .heading h1{
+        font-size: 2em;
+    }
+    .heading button{
+        font-size: 1em;
+    }
+    .header-image{
+        height: 300px;
+        width: 300px;
+    }
+    .about-section{
+        padding: 20px;
+    }
+    .about-section h1{
+        font-size: 2em;
+    }
+    .about-section p{
+        font-size: 1.1em;
+        padding: 0 20px;
+    }
+    .browseBtn{
+        font-size: 1em;
+    }
+    .form-section h1{
+        font-size: 2em;
+    }
+    form label{
+        font-size: 1.5em;
+    }
+    form input,select,textarea{
+        font-size: 1.1em;
+        width: 85%;
+    }
+    form button{
+        padding: 10px;
+        font-size: 1em;
+        font-weight: lighter;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .heading{
+        padding: 20px 0px;
+    }
+    .heading h1{
+        font-size: 1.5em;
+    }
+    .heading button{
+        font-size: 0.9em;
+    }
+    #myBtn{
+        display: none;
+    }
+    #backgroundBtn{
+        display: block;
+        font-size: 1.2em;
+    }
+    .header-image{
+        height: 250px;
+        width: 250px;
+    }
+    .about-section h1{
+        font-size: 1.5em;
+    }
+    .about-section p{
+        font-size: 1.1em;
+        padding: 0 20px;
+    }
+    .browseBtn{
+        font-size: 0.9em;
+    }
+    .form-section{
+        padding: 20px;
+    }
+    .form-section h1{
+        font-size: 1.5em;
+    }
+    form label{
+        font-size: 1.2em;
+    }
+    form input,select,textarea{
+        font-size: 1em;
+        width: 85%;
+    }
+    form button{
+        padding: 10px;
+        font-size: 1em;
+    }
+}

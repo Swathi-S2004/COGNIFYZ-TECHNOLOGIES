@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1.5s;
+    max-width: 100vw;
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.heading h1{
+    font-size: 2.5em;
+    display: inline;
+}
+.heading button{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(187, 94%, 39%);
+    cursor: pointer;
+    transition: .2s;
+}
+.heading button:hover{
+    padding: 12px;
+    background-color: hsl(187, 94%, 35%);
+}
+#backgroundBtn{
+    display: none;
+}
+.image-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.header-image{
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
+.about-section{
+    text-align: center;
+    padding: 40px 10px;
+}
+.about-section h1{
+    font-size: 2.5em;
+}
+.about-section p{
+    padding: 0px 100px;
+    font-size: 1.3rem;
+}
+.browseBtn{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: hsl(187, 94%, 39%);
+    transition: .2s;
+    border-radius: 5px;
+    font-size: 1.2em;
+    border: none;
+}
+.browseBtn:hover{
+    background-color: hsl(187, 94%, 35%);
+    padding: 12px;
+}
+.form-section{
+    padding: 40px;
+}
+.form-section h1{
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+form label{
+    font-size: 1.5em;
+}
+input::placeholder{
+    color: white;
+}
+form input,select,textarea{
+    width: 40%;
+    font-size: 1.2em;
+    background-color: transparent;
+    border: none;
+    box-shadow: 5px 5px 10px hsl(0, 0%, 10%);
+    color: rgb(255, 255, 255);
+}
+form input,select{
+    height: 30px;
+}
+textarea::placeholder{
+    color: white;
+}
+form option{
+    background-color: hsl(0, 0%, 34%);
+}
+form button{
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    text-align: center;
+    background-color: hsl(187, 94%, 39%);
+    transition: .2s;
+    border-radius: 5px;
+    font-size: 1.2em;
+    border: none;
+    margin-top: 20px;
+}
+form button:hover{
+    background-color: hsl(187, 94%, 35%);
+    padding: 20px 35px;
+}
+.error{
+    color: rgb(163, 1, 1);
+    font-size: 1em;
+    margin-bottom: 8px;
+    display: block;
+    font-weight: bold;
+}
+.api-section{
+    text-align: center;
+    padding: 50px;
+}
+.api-section h1{
+    font-size: 2.5em;
+}
+.api-section p{
+    font-size: 1.3em;
+}
+#apiData{
+    display: flex;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}

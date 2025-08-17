@@ -1,0 +1,161 @@
+body {
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 10%);
+    transition: 1.5s;
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(187, 94%, 39%);
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover {
+    padding: 12px;
+    background-color: hsl(187, 94%, 35%);
+}
+
+.heading {
+    font-size: 3em;
+}
+
+#backgroundBtn{
+    display: none;
+}
+
+.card {
+    width: 30%;
+    min-height: 500px;
+    max-width: auto;
+    text-align: center;
+}
+
+.card img {
+    height: 300px;
+}
+
+.card h4 {
+    font-size: 1.6em;
+}
+
+.card p {
+    font-size: 1.1em;
+}
+
+
+.pet-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px 50px;
+}
+
+.pet-menu div{
+    width: 28%;
+    height: 300px;
+}
+
+.pet-menu div img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.pet-menu div p{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5px;
+    color: white;
+}
+
+.pet-menu div img:hover{
+    height: 101%;
+    width: 101%;
+}
+
+.pet-list{
+    display: none;
+}
+
+.backBtnContainer{
+    text-align: center;
+    padding: 20px;
+    display: none;
+}
+
+@media screen and (max-width:1200px){
+    .heading{
+        font-size: 3em;
+    }
+    .card{
+        width: 70%;
+    }
+    .card img{
+        height: 400px;
+    }
+    .pet-menu div{
+        width: 30%;
+        height: 250px;
+    }    
+}
+
+@media screen and (max-width:768px){
+    .heading{
+        font-size: 3em;
+    }
+    .card{
+        width: 90%;
+    }
+    #myBtn{
+        display: none;
+    }
+    #backgroundBtn{
+        display: block;
+    }
+    .pet-list{
+        flex-direction: column;
+    }
+    .pet-menu{
+        flex-direction:column;
+        row-gap: 20px;
+    }
+    .pet-menu div{
+        width: 80%;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .heading{
+        font-size: 2em;
+    }
+    .card{
+        width: 90%;
+    }
+    .card img{
+        height: 300px;
+    }
+    .pet-menu{
+        padding: 40px 20px;
+    }
+    .pet-menu div{
+        width: 95%;
+        height: 250px;
+    }
+}
